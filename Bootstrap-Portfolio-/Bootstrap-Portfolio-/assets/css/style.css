@@ -1,0 +1,131 @@
+
+body {
+	margin: 0 auto;
+	padding: 0;
+  }
+  
+  
+  .site {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	font-family: 'Quicksand', sans-serif;
+  }
+  
+  .site-content {
+	color: #777777;
+	flex: 1;
+  }
+	
+
+		
+  .navigation-container {
+	background-color: #ffffff;
+	border-bottom: 2px solid #cccccc;
+	padding: 0;
+  }
+  
+  .navbar {
+	padding: 0;
+  }
+  
+  .navbar-light .navbar-brand {
+	color: white;
+	font-family: Georgia, "Times New Roman", Times, Serif;
+	font-size: 32px;
+	font-weight: bold;
+  }
+
+  .navbar-light .navbar-brand:hover {
+    color: rgb(87, 87, 87)
+
+	}
+
+	.navbar-brand {
+			background-color:#4aaaa5;
+			padding: 10px 25px;
+		}
+  
+  .nav-item a {
+	font-size: 20px;
+  }
+	
+  .card {
+	border-radius: 0;
+	opacity: 0.9;
+  }
+  
+  .card-title {
+	color: rgb(87, 87, 87);
+	font-weight: bold;
+  }
+
+  .card-text {
+	line-height: 1.2;
+	font-size: 1.0em;
+  }
+  
+  .floating-img {
+	border: 1px solid #ccc;
+	float: left;
+	width: 200px;
+    height: 300px;
+  }
+  
+  footer {
+	background-color: rgb(234, 234, 234);
+	color: rgb(87, 87, 87);
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	border-top: 3px solid white;
+  }
+
+
+    /*portfolio page*/
+  
+	.portfolio-overlay {
+		position: relative;
+		background-color: rgb(234, 234, 234);
+		height: 40px;
+		line-height: 40px;
+		margin-bottom: 0;
+		margin-top: 0;
+		text-align: center;
+		width: 100%;
+		opacity: 0.9;
+		}
+		
+		.card-img-overlay:hover {
+		transform: rotate(-4deg) scale(1.1, 1.1);
+		}
+	  
+	  .card-img-overlay {
+		display: flex;
+		top: -60px;
+		justify-content: center;
+		align-items: flex-end;
+		align-content: flex-end;
+		padding: 1em;
+		z-index: 1000;
+		width: 361px
+	
+		}
+	
+  
+  /*Contact Page*/
+  .form-group input,
+  .form-group textarea {
+	border-radius: 0;
+  }
+  
+  .form-group label {
+	font-size: 20px;
+  }
+  
+  .btn-primary {
+	background-color: #4aaaa5;
+	border: none;
+	border-radius: 0;
+  }
+  
